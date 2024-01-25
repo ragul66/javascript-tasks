@@ -1,0 +1,60 @@
+<!-- css and class
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      div {
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        transition: 2s;
+        margin-bottom: 10px;
+      }
+      .widthmax {
+        width: 900px;
+      }
+    </style>
+
+    <div id="box"></div>
+    <button onclick="change()">Change Color</button>
+
+    <script>
+      var boxchange = document.getElementById("box");
+
+      function change() {
+        box.style.backgroundColor = "red";
+        box.style.backgroundColor = "purple";
+        box.style.backgroundColor = "blue";
+        box.setAttribute("class", "widthmax");
+      }
+    </script>
+  </body>
+</html> -->
+
+<!-- question 3-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn" onclick="change()">changecolor</button>
+
+    <script>
+      var btn = document.getElementById("btn");
+
+      function change() {
+        btn.style.backgroundColor = "red";
+      }
+    </script>
+  </body>
+</html>

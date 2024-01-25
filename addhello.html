@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="change()">Add</button>
+    <div id="letter"></div>
+
+    <script>
+      var letter = document.getElementById("letter");
+
+      function change() {
+        //create a new lement
+        var listitem = document.createElement("h1");
+        listitem.textContent = "Hello";
+        letter.append(listitem);
+      }
+    </script>
+  </body>
+</html>
